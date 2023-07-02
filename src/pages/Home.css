@@ -1,0 +1,48 @@
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+
+.hero-content h2 {
+  margin: 1rem 0;
+}
+
+.hero-image img {
+  border-radius: 2rem;
+}
+
+.hero-buttons {
+  margin: 2rem 0;
+}
+
+.hero-buttons button {
+  width: 6rem;
+  height: 2rem;
+  margin: 0 1rem;
+  border: none;
+}
+
+.hero-buttons button:nth-of-type(1) {
+  background-color: #ff6666;
+  color: #fff;
+}
+
+.hero-buttons button:nth-of-type(2) {
+  background-color: #23527c;
+  color: #fff;
+}
+
+.about-container {
+  margin: 2rem 1rem;
+}
+
+.about-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-container p {
+  line-height: 2;
+}

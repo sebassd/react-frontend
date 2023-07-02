@@ -1,0 +1,50 @@
+.rooms-h2 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.room-grid-container {
+  padding: 0 1rem;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.room-grid-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.room-grid-container button {
+  padding: 10px 20px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.room-grid-container button:hover {
+  background-color: #23527c;
+}
+
+.rooms-btn {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.rooms-btn button {
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
