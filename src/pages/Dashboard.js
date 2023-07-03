@@ -23,7 +23,7 @@ const Dashboard = () => {
   }, []);
 
   function getRooms() {
-    fetch('http://localhost:3009/api/rooms')
+    fetch('https://backend-react-p4nf.onrender.com/api/rooms')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Request failed');
@@ -50,7 +50,7 @@ const Dashboard = () => {
     e.preventDefault();
 
     console.log(newRoom);
-    fetch('http://localhost:3009/api/room', {
+    fetch('https://backend-react-p4nf.onrender.com/api/room', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -71,7 +71,7 @@ const Dashboard = () => {
 
   function deleteRoom(id) {
     console.log(id);
-    fetch(`http://localhost:3009/api/room/${id}`, {
+    fetch(`https://backend-react-p4nf.onrender.com/api/room/${id}`, {
       method: 'DELETE',
     })
       .then((response) => {

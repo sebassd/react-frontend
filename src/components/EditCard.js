@@ -20,7 +20,7 @@ const EditCard = ({ id, status, price, editRoom, getRooms }) => {
     e.preventDefault();
     console.log(JSON.stringify(newRoom));
 
-    fetch(`http://localhost:3009/api/room/${id}`, {
+    fetch(`https://backend-react-p4nf.onrender.com/api/room/${id}`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',

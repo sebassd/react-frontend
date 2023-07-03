@@ -31,7 +31,7 @@ const ReserveForm = ({ room, closeForm }) => {
   function handleSubmit(e) {
     e.preventDefault();
 
-    fetch('http://localhost:3009/api/booking', {
+    fetch('https://backend-react-p4nf.onrender.com/api/booking', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

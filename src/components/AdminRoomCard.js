@@ -4,13 +4,7 @@ import EditCard from './EditCard';
 const AdminRoomCard = ({ room, deleteRoom, getRooms }) => {
   const { id, building, floor, services, price, status } = room;
   const [editing, setEditing] = useState(false);
-  // async function editRoom() {
-  //   try {
-  //     await axios.patch(`http://localhost:3009/api/room/${id}`, item);
-  //   } catch (e) {
-  //     console.log(e);
-  //   }
-  // }
+ 
 
   function editRoom() {
     setEditing(!editing);

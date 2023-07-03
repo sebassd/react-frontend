@@ -8,7 +8,7 @@ const Bookings = () => {
   }, []);
 
   function getBookings() {
-    fetch('http://localhost:3009/api/bookings')
+    fetch('https://backend-react-p4nf.onrender.com/api/bookings')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Request failed');

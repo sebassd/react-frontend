@@ -12,7 +12,7 @@ const SmallRoomsGrid = () => {
   }, []);
 
   function getRooms() {
-    fetch('http://localhost:3009/api/rooms')
+    fetch('https://backend-react-p4nf.onrender.com/api/rooms')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Request failed');
